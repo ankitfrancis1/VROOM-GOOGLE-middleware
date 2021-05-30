@@ -21,7 +21,7 @@
 
 ### How to use
 
-![Screenshot of Client]()
+![Screenshot of Client](https://user-images.githubusercontent.com/28080152/120088515-f770cd80-c10e-11eb-9c9d-e91e790b546b.png)
 
 1. Inside \test directory you will find vehicle.csv and jobs.csv.
 2. Upload the files using the ***Upload*** button.
