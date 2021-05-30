@@ -1,0 +1,413 @@
+{
+  "code": 0,
+  "summary": {
+    "cost": 15745,
+    "unassigned": 0,
+    "delivery": [30],
+    "amount": [30],
+    "pickup": [0],
+    "service": 9000,
+    "duration": 15745,
+    "waiting_time": 0,
+    "priority": 0,
+    "violations": [],
+    "computing_times": { "loading": 0, "solving": 76 }
+  },
+  "unassigned": [],
+  "routes": [
+    {
+      "vehicle": 1,
+      "cost": 7462,
+      "delivery": [15],
+      "amount": [15],
+      "pickup": [0],
+      "service": 4500,
+      "duration": 7462,
+      "waiting_time": 0,
+      "priority": 0,
+      "steps": [
+        {
+          "type": "start",
+          "service": 0,
+          "waiting_time": 0,
+          "load": [15],
+          "arrival": 1600416000,
+          "duration": 0,
+          "violations": []
+        },
+        {
+          "type": "job",
+          "id": 23,
+          "service": 300,
+          "waiting_time": 0,
+          "job": 23,
+          "load": [14],
+          "arrival": 1600417681,
+          "duration": 1681,
+          "violations": []
+        },
+        {
+          "type": "job",
+          "id": 15,
+          "service": 300,
+          "waiting_time": 0,
+          "job": 15,
+          "load": [13],
+          "arrival": 1600417981,
+          "duration": 1681,
+          "violations": []
+        },
+        {
+          "type": "job",
+          "id": 14,
+          "service": 300,
+          "waiting_time": 0,
+          "job": 14,
+          "load": [12],
+          "arrival": 1600418589,
+          "duration": 1989,
+          "violations": []
+        },
+        {
+          "type": "job",
+          "id": 13,
+          "service": 300,
+          "waiting_time": 0,
+          "job": 13,
+          "load": [11],
+          "arrival": 1600419134,
+          "duration": 2234,
+          "violations": []
+        },
+        {
+          "type": "job",
+          "id": 12,
+          "service": 300,
+          "waiting_time": 0,
+          "job": 12,
+          "load": [10],
+          "arrival": 1600419754,
+          "duration": 2554,
+          "violations": []
+        },
+        {
+          "type": "job",
+          "id": 11,
+          "service": 300,
+          "waiting_time": 0,
+          "job": 11,
+          "load": [9],
+          "arrival": 1600421030,
+          "duration": 3530,
+          "violations": []
+        },
+        {
+          "type": "job",
+          "id": 10,
+          "service": 300,
+          "waiting_time": 0,
+          "job": 10,
+          "load": [8],
+          "arrival": 1600421626,
+          "duration": 3826,
+          "violations": []
+        },
+        {
+          "type": "job",
+          "id": 9,
+          "service": 300,
+          "waiting_time": 0,
+          "job": 9,
+          "load": [7],
+          "arrival": 1600422165,
+          "duration": 4065,
+          "violations": []
+        },
+        {
+          "type": "job",
+          "id": 6,
+          "service": 300,
+          "waiting_time": 0,
+          "job": 6,
+          "load": [6],
+          "arrival": 1600423097,
+          "duration": 4697,
+          "violations": []
+        },
+        {
+          "type": "job",
+          "id": 7,
+          "service": 300,
+          "waiting_time": 0,
+          "job": 7,
+          "load": [5],
+          "arrival": 1600423629,
+          "duration": 4929,
+          "violations": []
+        },
+        {
+          "type": "job",
+          "id": 8,
+          "service": 300,
+          "waiting_time": 0,
+          "job": 8,
+          "load": [4],
+          "arrival": 1600424164,
+          "duration": 5164,
+          "violations": []
+        },
+        {
+          "type": "job",
+          "id": 20,
+          "service": 300,
+          "waiting_time": 0,
+          "job": 20,
+          "load": [3],
+          "arrival": 1600425220,
+          "duration": 5920,
+          "violations": []
+        },
+        {
+          "type": "job",
+          "id": 19,
+          "service": 300,
+          "waiting_time": 0,
+          "job": 19,
+          "load": [2],
+          "arrival": 1600425775,
+          "duration": 6175,
+          "violations": []
+        },
+        {
+          "type": "job",
+          "id": 18,
+          "service": 300,
+          "waiting_time": 0,
+          "job": 18,
+          "load": [1],
+          "arrival": 1600426140,
+          "duration": 6240,
+          "violations": []
+        },
+        {
+          "type": "job",
+          "id": 17,
+          "service": 300,
+          "waiting_time": 0,
+          "job": 17,
+          "load": [0],
+          "arrival": 1600426931,
+          "duration": 6731,
+          "violations": []
+        },
+        {
+          "type": "end",
+          "service": 0,
+          "waiting_time": 0,
+          "load": [0],
+          "arrival": 1600427962,
+          "duration": 7462,
+          "violations": []
+        }
+      ],
+      "violations": []
+    },
+    {
+      "vehicle": 2,
+      "cost": 8283,
+      "delivery": [15],
+      "amount": [15],
+      "pickup": [0],
+      "service": 4500,
+      "duration": 8283,
+      "waiting_time": 0,
+      "priority": 0,
+      "steps": [
+        {
+          "type": "start",
+          "service": 0,
+          "waiting_time": 0,
+          "load": [15],
+          "arrival": 1600416000,
+          "duration": 0,
+          "violations": []
+        },
+        {
+          "type": "job",
+          "id": 16,
+          "service": 300,
+          "waiting_time": 0,
+          "job": 16,
+          "load": [14],
+          "arrival": 1600417579,
+          "duration": 1579,
+          "violations": []
+        },
+        {
+          "type": "job",
+          "id": 24,
+          "service": 300,
+          "waiting_time": 0,
+          "job": 24,
+          "load": [13],
+          "arrival": 1600418848,
+          "duration": 2548,
+          "violations": []
+        },
+        {
+          "type": "job",
+          "id": 22,
+          "service": 300,
+          "waiting_time": 0,
+          "job": 22,
+          "load": [12],
+          "arrival": 1600419148,
+          "duration": 2548,
+          "violations": []
+        },
+        {
+          "type": "job",
+          "id": 21,
+          "service": 300,
+          "waiting_time": 0,
+          "job": 21,
+          "load": [11],
+          "arrival": 1600420135,
+          "duration": 3235,
+          "violations": []
+        },
+        {
+          "type": "job",
+          "id": 5,
+          "service": 300,
+          "waiting_time": 0,
+          "job": 5,
+          "load": [10],
+          "arrival": 1600420901,
+          "duration": 3701,
+          "violations": []
+        },
+        {
+          "type": "job",
+          "id": 30,
+          "service": 300,
+          "waiting_time": 0,
+          "job": 30,
+          "load": [9],
+          "arrival": 1600421859,
+          "duration": 4359,
+          "violations": []
+        },
+        {
+          "type": "job",
+          "id": 3,
+          "service": 300,
+          "waiting_time": 0,
+          "job": 3,
+          "load": [8],
+          "arrival": 1600422593,
+          "duration": 4793,
+          "violations": []
+        },
+        {
+          "type": "job",
+          "id": 2,
+          "service": 300,
+          "waiting_time": 0,
+          "job": 2,
+          "load": [7],
+          "arrival": 1600422912,
+          "duration": 4812,
+          "violations": []
+        },
+        {
+          "type": "job",
+          "id": 29,
+          "service": 300,
+          "waiting_time": 0,
+          "job": 29,
+          "load": [6],
+          "arrival": 1600423377,
+          "duration": 4977,
+          "violations": []
+        },
+        {
+          "type": "job",
+          "id": 4,
+          "service": 300,
+          "waiting_time": 0,
+          "job": 4,
+          "load": [5],
+          "arrival": 1600423841,
+          "duration": 5141,
+          "violations": []
+        },
+        {
+          "type": "job",
+          "id": 28,
+          "service": 300,
+          "waiting_time": 0,
+          "job": 28,
+          "load": [4],
+          "arrival": 1600424481,
+          "duration": 5481,
+          "violations": []
+        },
+        {
+          "type": "job",
+          "id": 26,
+          "service": 300,
+          "waiting_time": 0,
+          "job": 26,
+          "load": [3],
+          "arrival": 1600425465,
+          "duration": 6165,
+          "violations": []
+        },
+        {
+          "type": "job",
+          "id": 25,
+          "service": 300,
+          "waiting_time": 0,
+          "job": 25,
+          "load": [2],
+          "arrival": 1600426112,
+          "duration": 6512,
+          "violations": []
+        },
+        {
+          "type": "job",
+          "id": 27,
+          "service": 300,
+          "waiting_time": 0,
+          "job": 27,
+          "load": [1],
+          "arrival": 1600426965,
+          "duration": 7065,
+          "violations": []
+        },
+        {
+          "type": "job",
+          "id": 1,
+          "service": 300,
+          "waiting_time": 0,
+          "job": 1,
+          "load": [0],
+          "arrival": 1600427945,
+          "duration": 7745,
+          "violations": []
+        },
+        {
+          "type": "end",
+          "service": 0,
+          "waiting_time": 0,
+          "load": [0],
+          "arrival": 1600428783,
+          "duration": 8283,
+          "violations": []
+        }
+      ],
+      "violations": []
+    }
+  ]
+}

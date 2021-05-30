@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./index.js" defer></script>
+  </head>
+  <body>
+    <span>
+      <div>
+        <div id="loader"></div>
+        <div class="panel" id="buttons">
+          <div>
+            <label for="fileUpload-vehicle">Select Vehicles file:</label>
+            <input
+              type="file"
+              class="panel-button"
+              id="fileUpload-vehicle"
+              name="Choose Vehicles file"
+            />
+            <input
+              type="button"
+              class="panel-button upload"
+              id="upload-vehicle"
+              value="Upload"
+            />
+          </div>
+          <div>
+            <label for="fileUpload-job">Select Jobs file:</label>
+            <input
+              type="file"
+              class="panel-button"
+              id="fileUpload-job"
+              name="Choose Jobs file"
+            />
+            <input
+              type="button"
+              class="panel-button upload"
+              id="upload-job"
+              value="Upload"
+            />
+          </div>
+          <div class="panel-button run">
+            <button class="generate" id="show-request">Show Request</button>
+            <button class="generate" id="send-request">Send Request</button>
+          </div>
+        </div>
+      </div>
+      <div class="left-div" id="vehicle-div">
+        <fieldset class="left-fieldset top" id="vehicle-fieldset">
+          <legend>Vehicles</legend>
+          <table class="simple-table" id="vehicle-table">
+            <thead>
+              <tr>
+                <th>Vehicle #</th>
+                <th>Start latitude</th>
+                <th>Start longitude</th>
+                <th>End latitude</th>
+                <th>End longitude</th>
+              </tr>
+            </thead>
+            <tbody id="vehicle-detail"></tbody>
+          </table>
+        </fieldset>
+      </div>
+      <div class="left-div" id="job-div">
+        <fieldset class="left-fieldset bottom" id="job-fieldset">
+          <legend>Jobs</legend>
+          <table class="simple-table" id="job-table">
+            <thead>
+              <tr>
+                <th>Job #</th>
+                <th>latitude</th>
+                <th>longitude</th>
+              </tr>
+            </thead>
+            <tbody id="job-detail">
+              <!-- <tr>
+                <td>1</td>
+                <td>10.01</td>
+                <td>71.51</td>
+              </tr> -->
+            </tbody>
+          </table>
+        </fieldset>
+      </div>
+    </span>
+    <span>
+      <div class="right-div">
+        <div class="tooltip">
+          <button id="copy-button">
+            <span class="tooltiptext" id="copyToolTip">Copy to clipboard</span>
+            Copy text
+          </button>
+        </div>
+        <div class="data-display" id="output">Output Grid</div>
+      </div>
+    </span>
+  </body>
+</html>

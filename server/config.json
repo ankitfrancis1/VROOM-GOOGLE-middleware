@@ -1,0 +1,5 @@
+{
+  "port": "3000",
+  "google_api_key": "key=*your-api-key*",
+  "async_call_mode": false
+}
